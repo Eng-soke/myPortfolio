@@ -1,4 +1,4 @@
-import soke from "../assets/soke.png";
+import soke from "../assets/Soke.png";
 
 function Hero() {
     return (
