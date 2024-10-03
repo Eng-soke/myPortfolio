@@ -10,11 +10,30 @@ import rizaana from "../assets/rizaana.jpg";
 import cleaning from "../assets/cleaning.jpg";
 import company from "../assets/company.jpg";
 import resturant from "../assets/resturant.jpg";
+import alaabjiif from "../assets/alaabjiif.jpg";
+import oilve from "../assets/olive.jpg";
+import oilve2 from "../assets/olive2.jpg";
 
 function Projects() {
     const [selectedImage, setSelectedImage] = useState(null); // State si sawirka modal loogu soo bandhigo
 
     const projects = [
+        {
+            title: "cosmetics project",
+            description: "This project is a special cosmetics collection I built for my mother, showcasing a blend of natural ingredients and thoughtful design.",
+            image: oilve
+        },
+        {
+            title: "olive project",
+            description: "This is a furniture project crafted with care, blending traditional and modern design to create a comfortable and stylish space.",
+            image: oilve2
+        },
+        {
+            title: "furniture project",
+            description: "This furniture project is a heartfelt gift, built to provide comfort and elegance for my mother's home.",
+            image: alaabjiif
+        },
+        
         {
             title: "E-commerce project",
             description: "This project is a gift I built for my mother as a special token of appreciation.",
