@@ -16,7 +16,7 @@ function Hero() {
                </a>
             </div>
             <div className="w-[400px] h-[500px] rounded-full flex items-center justify-center">
-                <img className="w-[300px] h-[500px] object-cover" src={soke} alt="Eng Soke" />
+                <img className="w-[300px] h-[500px] object-cover" src={soke}  />
             </div>
         </div>
     );
